@@ -1,0 +1,1 @@
+find . -type f -name "*.scala" -exec ack "(type|class|trait|object)\s+$1(?!\w)" {} +

@@ -1,0 +1,1 @@
+find . -type f -name "*.scala" -exec ack "(val|var|def)\s+$1(?!\w)" {} +
