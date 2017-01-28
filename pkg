@@ -1,2 +1,2 @@
-find . -type f -name "*.scala" -exec ack "package\s+.+$1" {} +
+scl "package\s+.+$1"
 find . -type d -name "$1"
